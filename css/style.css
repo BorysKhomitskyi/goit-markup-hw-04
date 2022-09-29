@@ -397,10 +397,7 @@ body {
 .footer-social {
     display: flex;
     gap: 70px;
-}
-
-.footer-logo-address {
-    max-width: 231px;
+    align-items: baseline;
 }
 
 .footer-logo {
@@ -447,11 +444,6 @@ body {
 .footer-contact:hover,
 .footer-contact:focus {
     color: var(--hover-blue);
-}
-
-.social {
-    max-width: 206px;
-    padding-top: 12px;
 }
 
 .social-title {
