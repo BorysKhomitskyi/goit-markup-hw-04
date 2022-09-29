@@ -546,11 +546,7 @@ body {
 .projects-list {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
-}
-
-.projects-list .item {
-    margin: 15px;
+    gap: 30px;
 }
 
 .projects-info {
@@ -567,6 +563,7 @@ body {
 .projects-title {
     margin-top: 0;
     margin-bottom: 4px;
+    color: var(--text-black);
 
     font-size: 18px;
     line-height: 2;
@@ -579,4 +576,15 @@ body {
     font-size: 16px;
     line-height: 1.88;
     color: var(--text-gray);   
+ }
+
+  .projects-link {
+    display: block;
+  }
+
+ .projects-link:hover,
+ .projects-link:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+                0px 4px 4px rgba(0, 0, 0, 0.06), 
+                1px 4px 6px rgba(0, 0, 0, 0.16);
  }
